@@ -1,99 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Games - Steve Recio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 30px;
-        }
-        .games-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-        .game-card {
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .game-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .game-card h3 {
-            color: #333;
-            margin-top: 0;
-        }
-        .game-card p {
-            color: #666;
-            margin-bottom: 15px;
-        }
-        .game-card a {
-            display: inline-block;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.2s;
-        }
-        .game-card a:hover {
-            background-color: #0056b3;
-        }
-        .back-link {
-            margin-top: 30px;
-        }
-        .back-link a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .back-link a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+<meta name="description" content="Games - Steve Recio" />
+<title>Games - Steve Recio</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Games</h1>
-        
-        <div class="games-grid">
-            <div class="game-card">
-                <h3>Pong</h3>
-                <p>The classic arcade game. Control your paddle with W and S keys, compete against the computer!</p>
-                <a href="./games/pong.html">Play Pong</a>
-            </div>
-            <div class="game-card">
-                <h3>Snake</h3>
-                <p>Eat food, grow your snake, and avoid crashing into yourself or the walls. Use the arrow keys to play!</p>
-                <a href="./games/snake.html">Play Snake</a>
-            </div>
-        </div>
-        
-        <div class="back-link">
-            <a href="./index.html">← Back to Home</a>
-        </div>
-    </div>
+<h1>Games</h1>
+
+<div style="margin-top: 20px;">
+    <ul>
+        <li><a href="./games/pong.html">Pong</a></li>
+        <li><a href="./games/snake.html">Snake</a></li>
+    </ul>
+</div>
+
+<div style="margin-top: 20px;">
+<a href="./index.html">Back to Home</a>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56935923-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html> 
